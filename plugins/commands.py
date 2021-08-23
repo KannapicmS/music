@@ -26,16 +26,10 @@ from config import Config
 U=USERNAME
 CHAT=Config.CHAT
 msg=Config.msg
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nIam MusicPlayer 2.0 which plays music in Channels and Groups 24*7.\n\nI can even Stream Youtube Live in Your Voicechat.\n\nDeploy Your Own bot from source code below.\n\nHit /help to know about available commands.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n ഞാൻ 1 റോബോട്ട് ആണ് എന്നെ നിനക്ക് ഉപയോഗിക്കാൻ പറ്റില്ല☺️ പിന്നെ സോങ്ങ് request ചെയ്യാൻ അനേൽ /help അടികൂ 😍☺️</b>"
 HELP = """
 
-<b>Add the bot and User account in your Group with admin rights.
-
-Start a VoiceChat.
-
-Use /play <song name> or use /play as a reply to an audio file or youtube link.
-
-You can also use /splay <song name> to play a song from Jio Saavn or /cplay <channel username or channel id> to play music from a telegram channel.</b>
+<b>നിനക്ക് വേണ്ടുന്ന സോങ്ങ് /play YouTube link അയിട്ട് സെൻ്റ് ചെയ്യ് njn പാടി തെരാം നിനക്ക്😈</b>
 
 **Common Commands**:
 
@@ -96,12 +90,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Cybermediaworks'),
+            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/Cybermediaworks'),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/kannapi22'),
+            InlineKeyboardButton('🧩 Source', url='https://t.me/Cybermediaworks'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
